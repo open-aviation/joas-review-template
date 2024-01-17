@@ -1,21 +1,7 @@
-# JOAS LaTex template
+# JOAS LaTex template for reviews
 
-The repository contains the LaTex template for Journal of Open Aviation Science.
+The repository contains the LaTex template for publishing open reviews of JOAS papers.
 
-Please make sure the entire manuscript is in one latex file `main.tex`.
+The template is only used by the editors (not authors).
 
-## How to get the template
-
-You can download everything in a zip file:   
-https://github.com/open-aviation/joas-template/archive/refs/heads/main.zip
-
-Or checkout use Git:
-
-```bash
-git clone https://github.com/open-aviation/joas-template.git my-paper
-```
-
-## Are you using Overleaf?
-
-The template is available in the official gallery. You may use the following [link](https://www.overleaf.com/latex/templates/journal-of-open-aviation-science-joas-template/ndxgcqpmksnv)
-
+For the regular JOAS template, see: https://github.com/open-aviation/joas-template
