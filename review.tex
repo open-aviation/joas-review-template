@@ -1,0 +1,64 @@
+\documentclass[
+  manuscript=editorial,  %% article (default), rescience, data, software, proceedings
+  layout=publish,  %% preprint (for submission) or publish (for publisher only)
+  year=2023,
+  volume=1,
+]{extra/review}
+
+\doi{xx.xxxxx/joas.xxxx.xxxx}
+
+% \conference{} command is only used for proceedings
+% \conference{Conference Title}
+
+
+% remove the following two packages, and delete all \blindtext commands
+\usepackage[english]{babel} 
+\usepackage{blindtext}
+
+% Make sure your article tile is within 12 words
+\title{\emph{Reviews and responses for}\\\vspace*{0.5em}
+Original paper title
+}
+
+\author{Author1}
+\author{Author2}
+\author{Author3}
+
+\reviewers{
+  Reviewer1,
+  Reviewer2,
+  and
+  Reviewer3
+}
+
+\editor{Editor Name}
+
+
+\begin{document}
+
+\section{Original paper}
+
+DOI for the original paper: \url{https://doi.org/xx.xxxx/xxxx.xxxx.xxxx}
+
+
+\section{Review - round 1}
+
+\subsection{Reviewer 1}
+\subsection{Reviewer 2}
+\subsection{Reviewer 3}
+
+\section{Response - round 1}
+
+
+
+\section{Review - round 2}
+
+\subsection{Reviewer 1}
+\subsection{Reviewer 2}
+\subsection{Reviewer 3}
+
+\section{Response - round 2}
+
+
+
+\end{document}
