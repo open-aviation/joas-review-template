@@ -1,22 +1,14 @@
 \documentclass[
-  manuscript=editorial,  %% article (default), rescience, data, software, proceedings
-  layout=publish,  %% preprint (for submission) or publish (for publisher only)
-  year=2023,
-  volume=1,
+  manuscript=editorial,
+  layout=publish,
+  year=20xx,
+  volume=x,
 ]{extra/review}
 
 \doi{xx.xxxxx/joas.xxxx.xxxx}
 
-% \conference{} command is only used for proceedings
-% \conference{Conference Title}
 
-
-% remove the following two packages, and delete all \blindtext commands
-\usepackage[english]{babel} 
-\usepackage{blindtext}
-
-% Make sure your article tile is within 12 words
-\title{\emph{Reviews and responses for}\\\vspace*{0.5em}
+\title{
 Original paper title
 }
 
@@ -38,17 +30,45 @@ Original paper title
 
 \section{Original paper}
 
+% See detailed reviews and responses in the PDF file.
+
 DOI for the original paper: \url{https://doi.org/xx.xxxx/xxxx.xxxx.xxxx}
 
 
 \section{Review - round 1}
 
 \subsection{Reviewer 1}
+Review text
+
 \subsection{Reviewer 2}
+Review text
+
 \subsection{Reviewer 3}
+Review text
 
 \section{Response - round 1}
 
+\subsection{Response to reviewer 1}
+Review text
+
+\begin{response}
+Response text
+\end{response}
+
+\subsection{Response to reviewer 2}
+Review text
+
+\begin{response}
+Response text
+\end{response}
+
+
+\subsection{Response to reviewer 3}
+Review text
+
+\begin{response}
+Response text
+\end{response}
 
 
 \section{Review - round 2}
@@ -59,6 +79,9 @@ DOI for the original paper: \url{https://doi.org/xx.xxxx/xxxx.xxxx.xxxx}
 
 \section{Response - round 2}
 
+\subsection{Response to reviewer 1}
+\subsection{Response to reviewer 2}
+\subsection{Response to reviewer 3}
 
 
 \end{document}

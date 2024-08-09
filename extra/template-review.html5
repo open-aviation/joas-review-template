@@ -156,6 +156,18 @@
 
     .references .csl-entry:hover {background: #eee}
 
+    .response {
+      background-color: #eee;
+      border: 1px #555 solid;
+      padding: 0.5em 1em 0;
+      margin: 1em 0;
+    }
+    .response:before{
+      content: "Response:";
+      color: darkred;
+      font-weight: bold;
+    }
+
   </style>
 
 </head>
