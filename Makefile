@@ -20,6 +20,8 @@ pdf:
 	biber review
 	pdflatex -synctex=1 -shell-escape review.tex
 	cp review.pdf ../publish/joas-review-$(paper_id).pdf
+	rm -f *.aux *.bbl *.blg *.bcf *.fls *.fdb_latexmk *.idx *.ilg *.ind *.log *.out *.run.xml *.toc
+
 clean:
 	rm -f *.aux *.bbl *.blg *.bcf *.fls *.fdb_latexmk *.idx *.ilg *.ind *.log *.out *.run.xml *.toc
 	find build/html/ -type f -not -name "empty" -delete
